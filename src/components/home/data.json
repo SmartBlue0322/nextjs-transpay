@@ -1,0 +1,110 @@
+{
+  "brands": [
+    {
+      "title": "Google",
+      "imageUrl": "/brand/1.png"
+    },
+    {
+      "title": "AirBNB",
+      "imageUrl": "/brand/2.png"
+    },
+    {
+      "title": "Stripe",
+      "imageUrl": "/brand/3.png"
+    },
+    {
+      "title": "Uber",
+      "imageUrl": "/brand/4.png"
+    },
+    {
+      "title": "facebook",
+      "imageUrl": "/brand/5.png"
+    }
+  ],
+  "video": [
+    {
+      "videoUrl": "/docs/videos/flowbite.mp4",
+      "type": "video/mp4"
+    },
+    {
+      "videoUrl": "/docs/videos/flowbite.mp4",
+      "type": "video/mp4"
+    }
+  ],
+  "services": [
+    {
+      "title": "Seamless Transactions",
+      "description": "Our intuitive interface guides you through the process, ensuring a smooth experience from start to finish.",
+      "imageUrl": "/service/1.png"
+    },
+    {
+      "title": "Security and Reliability",
+      "description": "Your security is our top priority. You can trust us to handle your money with utmost care.",
+      "imageUrl": "/service/2.png"
+    },
+    {
+      "title": "Responsive Support",
+      "description": "Our dedicated customer support team is available to assist you at every step.",
+      "imageUrl": "/service/3.png"
+    }
+  ],
+  "features": [
+    {
+      "title": "Easy to use",
+      "description": "Eu faucibus blandit porttitor blandit sit ipsum felis blandit. Nec lorem convallis leo elit ac.",
+      "imageUrl": "/feature/1.png",
+      "linkUrl": "#"
+    },
+    {
+      "title": "Faster Payments",
+      "description": "Sodales ut sit eu velit ut id. Arcu vulputate in morbi interdum ornare malesuada. Et commodo.",
+      "imageUrl": "/feature/2.png",
+      "linkUrl": "#"
+    },
+    {
+      "title": "Lower Fees",
+      "description": "Quisque nulla malesuada lacus ipsum dolor sagittis neque volutpat. Fames in eu faucibus.",
+      "imageUrl": "/feature/3.png",
+      "linkUrl": "#"
+    },
+    {
+      "title": "100% secure",
+      "description": "Vel ridiculus vehicula vitae cursus sit quis. Sit aliquam quam facilisi risus vel eu. Dictum lorem.",
+      "imageUrl": "/feature/4.png",
+      "linkUrl": "#"
+    }
+  ],
+  "location": [
+    {
+      "title": "Credit card",
+      "imageUrl": "/location/1.png"
+    },
+    {
+      "title": "Faster Payments",
+      "imageUrl": "/location/2.png"
+    },
+    {
+      "title": "Transpay balance",
+      "imageUrl": "/location/3.png"
+    }
+  ],
+  "solution": [
+    {
+      "title": "Feelancer",
+      "imageUrl": "/solution/1.jpg"
+    },
+    {
+      "title": "Online Shopping",
+      "imageUrl": "/solution/2.jpg"
+    },
+    {
+      "title": "Online Sellers",
+      "imageUrl": "/solution/3.jpg"
+    },
+    {
+      "title": "Affiliate Marketing",
+      "imageUrl": "/solution/4.jpg"
+    }
+  ]
+}
+  
