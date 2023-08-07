@@ -1,6 +1,6 @@
 import React from "react";
 
-import Layout from "@components/home/Layout";
+import Layout from "@components/Layout";
 import FeaturedSection from "@components/home/FeaturedSection";
 import IntroSection from "@components/home/IntroSection";
 import BrandSection from "@components/home/BrandSection";

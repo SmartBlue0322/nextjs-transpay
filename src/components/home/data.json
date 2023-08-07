@@ -105,6 +105,27 @@
       "title": "Affiliate Marketing",
       "imageUrl": "/solution/4.jpg"
     }
+  ],
+  "corefeature": [
+    {
+      "title": "Fraud Detection",
+      "description": "Morbi sollicitudin nec urna ut sapien felis. Mi et ornare ut tristique pretium ridiculus non. Amet enim interdum.",
+      "imageUrl": "corefeature/1.svg"
+    },
+    {
+      "title": "Support manager",
+      "description": "Amet eros tempus nam orci commodo sed felis parturient. Mi ornare mauris nisl viverra leo pharetra felis a leo. Nisl.",
+      "imageUrl": "corefeature/2.svg"
+    },
+    {
+      "title": "Account updater",
+      "description": "Et habitant arcu ullamcorper elit ut porttitor neque. Urna et ullamcorper posuere eget. Bibendum mi turpis morbi.",
+      "imageUrl": "corefeature/3.svg"
+    },
+    {
+      "title": "Payment invoice",
+      "description": "Faucibus ultrices vestibulum lacus sed arcu amet vel eget lectus. Id risus fermentum risus amet nisi viverra diam.",
+      "imageUrl": "corefeature/4.svg"
+    }
   ]
 }
-  
