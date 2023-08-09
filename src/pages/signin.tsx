@@ -42,10 +42,10 @@ export default function Signin() {
                                         </div>
                                     </div>
                                     <button  type="button" className="text-white-900 bg-gradient-to-t from-purple-600 to-pink-600 hover:bg-gradient-to-b focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[3rem] text-md md:text-lg px-6 py-3.5 text-center transform w-full mb-4">Continue</button>
-                                    <Link href="#">Forget your password?</Link>
+                                    <a href="#" className="d-block text-center text-[#625BF7]">Forget your password?</a>
                                 </form>
                             </div>
-                            <h3 className="text-base font-normal leading-normal text-white-900 text-center">Don't have an account? <Link href="#">Sign up</Link></h3>
+                            <h3 className="text-base font-normal leading-normal text-white-900 text-center">Don't have an account? <a href="#" className="text-[#F833C0]">Sign up</a></h3>
                         </div>
                     </div>
                 </div>

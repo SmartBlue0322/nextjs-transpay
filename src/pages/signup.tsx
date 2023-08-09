@@ -15,7 +15,7 @@ export default function Signout() {
                             <img src="/sign/2.jpg" alt="SignOut" className="rounded-2xl" />
                         </div>
                         <div className="col-span-1 flex-1 lg:mr-20 px-5">
-                            <div className="rounded-2xl bg-white-900 px-11 py-12 mb-5">
+                            <div className="rounded-2xl bg-white-900 px-[46px] py-[30px] mb-5">
                                 <div>
                                     <h3 className="text-[#757575] text-base font-normal leading-normal">Welcome! 👋</h3>
                                 </div>
@@ -51,20 +51,20 @@ export default function Signout() {
                                             </button>
                                         </div>
                                     </div>
-                                    <div className="form-checkbox mb-8">
-                                        <input type="checkbox" className="custom-checkbox" id="register-agree-2" name="register-agree"
+                                    <div className="form-checkbox mb-8 flex items-center justify-center">
+                                        <input type="checkbox" className="custom-checkbox w-[24px] h-[24px] mr-[8px]" id="register-agree-2" name="register-agree"
                                             required />
                                         <label className="form-control-label text-sm font-normal leading-[130%]" htmlFor="register-agree-2">I have read and agree to the Terms of Service</label>
                                     </div>
                                     <button  type="button" className="text-white-900 bg-gradient-to-t from-purple-600 to-pink-600 hover:bg-gradient-to-b focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[3rem] text-md md:text-lg px-6 py-3.5 text-center transform w-full mb-4">Sign Up</button>
-                                    <label className=" text-sm font-medium leading-normal text-[#625BF7] text-center">or</label>
+                                    <label className=" block text-sm font-medium leading-normal text-[#625BF7] text-center">or</label>
                                 </form>
                             </div>
-                            <button className=" rounded-full w-[256px] h-[48px] text-base font-medium leading-[19.2px]">
-                                <img src="/google-icon.png" />
+                            <button className=" py-[14px] px-[24px] mx-auto mb-[16px] rounded-full w-[256px] h-[48px] text-base text-white-900 font-medium leading-[19.2px] border-2 border-[#eee] flex">
+                                <img className=" pr-[10px]" src="/google-icon.png" />
                                 Connect with Google
                             </button>
-                            <h3>Already have an account? <Link href="#">Sign in</Link></h3>
+                            <h3 className="text-[16px] font-normal leading-[120%] text-white-900 text-center">Already have an account? <a href="#" className="text-[#F833C0]">Sign in</a></h3>
                         </div>
                     </div>
                 </div>
