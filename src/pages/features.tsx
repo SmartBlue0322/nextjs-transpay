@@ -11,10 +11,10 @@ export default function Features() {
     return (
         <Layout pageTitle="Features" pageDescription="Features page">
             <div className="bg-white-900 mt-[108px] xl:mt-32">
-            <div className="page-header text-center bg-[url('/bg1.jpg')] py-[125px]">
-                <h2 className="text-white-900 font-semibold text-[42px] leading-[63px] mb-[16px]">Our Feature</h2>
-                <p className="text-white-900 font-medium text-[16px] leading-[30px]">Simplifying Money Transfer and Receive</p>
-            </div>
+                <div className="page-header text-center bg-[url('/bg1.jpg')] bg-center py-[125px]">
+                    <h2 className="text-white-900 font-semibold text-[42px] leading-[63px] mb-[16px]">Our Feature</h2>
+                    <p className="text-white-900 font-medium text-[16px] leading-[30px]">Simplifying Money Transfer and Receive</p>
+                </div>
                 <div className="container mx-auto px-5 py-40">
                     <div className="features">
                         <div className="flex -mx-[10px] items-center mb-[7rem]">

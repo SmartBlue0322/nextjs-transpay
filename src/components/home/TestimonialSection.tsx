@@ -3,7 +3,7 @@ const TestimonialSection = () => {
         <div className="mx-auto container px-5 mb-20 md:mb-36">
             <p className="text-3xl lg:text-4xl font-bold text-dark-900 leading-normal text-center">What Our <span className="text-pink-900">Client</span> Saying?</p>
 
-            <p className="text-base lg:text-xl text-dark-900 opacity-60 tracking-wider mt-8 w-full md:w-8/12 mx-auto text-center">Real Stories from Satisfied Clients: Discover Their Experience with Our Money Transfer and Receive Services</p>
+            <p className=" text-center text-base lg:text-xl text-dark-900 opacity-60 tracking-wider mt-8 w-full md:w-8/12 mx-auto text-center">Real Stories from Satisfied Clients: Discover Their Experience with Our Money Transfer and Receive Services</p>
 
             <div className='flex mt-40 flex-col sm:flex-row'>
                 <div className="relative inline-block mx-10">
