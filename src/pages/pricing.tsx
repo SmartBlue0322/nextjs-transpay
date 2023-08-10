@@ -7,10 +7,10 @@ export default function Pricing() {
     return (
         <Layout pageTitle="Signin" pageDescription="Signin page">
             <div className="bg-white-900 mt-[108px] xl:mt-32">
-                <div className="container mx-auto px-5 py-40">
+                <div className="container mx-auto px-5 py-28">
                     <div className="pricing-table mb-[50px]">
                         <h2 className="text-center text-[42px] lg:text-4xl font-bold text-dark-900 mt-8 md:mt-0 mb-4 mx-auto leading-normal lg:w-[800px]">Explore our extensive array of services offered <span className="text-pink-900">worldwide</span></h2>
-                        <p className="text-center text-lg font-medium leading-[150%] text-dark-900 opacity-60 mb-12">
+                        <p className="text-center text-lg font-medium leading-[150%] text-dark-900 opacity-60 mb-40">
                             Know Exactly What You'll Pay for Hassle-free Money Transfers and Receives
                         </p>
                         <div className="flex -mx-[20px]">
@@ -29,7 +29,7 @@ export default function Pricing() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="flex-1 px-[20px]">
+                            <div className="flex-1 px-[20px] -mt-14">
                                 <div className="py-[63px] px-[38px] bg-white-900 rounded-2xl shadow-5xl">
                                     <h2 className=" mb-3 text-[42px] font-bold leading-[150%]">Standard</h2>
                                     <span className="text-lg font-medium leading-[30px] opacity-60">Global Money Transfer Plus Pack</span>
