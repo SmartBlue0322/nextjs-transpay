@@ -1,20 +1,27 @@
 import React from "react";
+import axios from "axios";
 
 import Link from "next/link";
 
 import Layout from "@components/Layout";
 
 export default function Signout() {
+    const register = () => {
+        axios.post("http://154.12.225.124/user/register").then(res => {
+            console.log("result is", res);
+        })
+    }
+
     return (
         <Layout pageTitle="Signin" pageDescription="Signin page">
             <div className="bg-purple-900 mt-[108px] xl:mt-32">
                 <div className="container mx-auto px-5 py-40">
                     {/* <div className="grid lg:grid-cols-2 grid-cols-1"> */}
-                    <div className=" flex -mx-5">
-                        <div className="col-span-1 flex-1 px-5">
-                            <img src="/sign/2.jpg" alt="SignOut" className="rounded-2xl" />
+                    <div className="flex flex-wrap -mx-5">
+                        <div className="lg:flex-1 px-5 mb-[20px] w-full">
+                            <img src="/sign/2.jpg" alt="SignOut" className="rounded-2xl w-full" />
                         </div>
-                        <div className="col-span-1 flex-1 lg:mr-20 px-5">
+                        <div className="lg:flex-1 lg:mr-20 px-5 mb-[20px] w-full">
                             <div className="rounded-2xl bg-white-900 px-[46px] py-[30px] mb-5">
                                 <div>
                                     <h3 className="text-[#757575] text-base font-normal leading-normal">Welcome! 👋</h3>
@@ -56,7 +63,7 @@ export default function Signout() {
                                             required />
                                         <label className="form-control-label text-sm font-normal leading-[130%]" htmlFor="register-agree-2">I have read and agree to the Terms of Service</label>
                                     </div>
-                                    <button  type="button" className="text-white-900 bg-gradient-to-t from-purple-600 to-pink-600 hover:bg-gradient-to-b focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[3rem] text-md md:text-lg px-6 py-3.5 text-center transform w-full mb-4">Sign Up</button>
+                                    <button  type="button" className="text-white-900 bg-gradient-to-t from-purple-600 to-pink-600 hover:bg-gradient-to-b focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-[3rem] text-md md:text-lg px-6 py-3.5 text-center transform w-full mb-4" onClick={register}>Sign Up</button>
                                     <label className=" block text-sm font-medium leading-normal text-[#625BF7] text-center">or</label>
                                 </form>
                             </div>
@@ -64,7 +71,7 @@ export default function Signout() {
                                 <img className=" pr-[10px]" src="/google-icon.png" />
                                 Connect with Google
                             </button>
-                            <h3 className="text-[16px] font-normal leading-[120%] text-white-900 text-center">Already have an account? <a href="#" className="text-[#F833C0]">Sign in</a></h3>
+                            <h3 className="text-[16px] font-normal leading-[120%] text-white-900 text-center">Already have an account? <a href="/signin" className="text-[#F833C0]">Sign in</a></h3>
                         </div>
                     </div>
                 </div>

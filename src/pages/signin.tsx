@@ -9,11 +9,11 @@ export default function Signin() {
         <Layout pageTitle="Signin" pageDescription="Signin page">
             <div className="bg-purple-900 mt-[108px] xl:mt-32">
                 <div className="container mx-auto px-5 py-40">
-                    <div className="flex -mx-5 items-center">
-                        <div className="px-5 lg:flex-[50%]">
-                            <img src="/sign/1.jpg" alt="SignIn" className="rounded-2xl"></img>
+                    <div className="flex flex-wrap -mx-5 items-center">
+                        <div className="px-5 lg:flex-1 mb-[20px] w-full">
+                            <img src="/sign/1.jpg" alt="SignIn" className="rounded-2xl w-full"></img>
                         </div>
-                        <div className="lg:flex-[50%] px-5 lg:mr-20">
+                        <div className="lg:flex-1 px-5 lg:mr-20 mb-[20px] w-full">
                             <div className="rounded-2xl bg-white-900 px-11 py-12 mb-5">
                                 <div>
                                     <h3 className="text-[#757575] text-base font-normal leading-normal">Welcome back! 👋</h3>
@@ -45,7 +45,7 @@ export default function Signin() {
                                     <a href="#" className="d-block text-center text-[#625BF7]">Forget your password?</a>
                                 </form>
                             </div>
-                            <h3 className="text-base font-normal leading-normal text-white-900 text-center">Don't have an account? <a href="#" className="text-[#F833C0]">Sign up</a></h3>
+                            <h3 className="text-base font-normal text-white-900 text-center">Don't have an account? <a href="/signup" className="text-[#F833C0]">Sign up</a></h3>
                         </div>
                     </div>
                 </div>

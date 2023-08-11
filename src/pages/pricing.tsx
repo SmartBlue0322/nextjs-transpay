@@ -13,8 +13,8 @@ export default function Pricing() {
                         <p className="text-center text-lg font-medium leading-[150%] text-dark-900 opacity-60 mb-40">
                             Know Exactly What You'll Pay for Hassle-free Money Transfers and Receives
                         </p>
-                        <div className="flex -mx-[20px]">
-                            <div className="flex-1 px-[20px]">
+                        <div className="flex flex-wrap -mx-[20px]">
+                            <div className="lg:flex-1 flex-[50%] px-[20px] mb-[20px]">
                                 <div className="py-[63px] px-[38px] bg-white-900 rounded-2xl shadow-5xl">
                                 <h2 className=" mb-3 text-[42px] font-bold leading-[150%]">Starter</h2>
                                     <span className="text-lg font-medium leading-[30px] opacity-60">Money Transfer Essentials Pack</span>
@@ -29,7 +29,7 @@ export default function Pricing() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="flex-1 px-[20px] -mt-14">
+                            <div className="lg:flex-1 flex-[50%] px-[20px] sm:-mt-14  mb-[20px]">
                                 <div className="py-[63px] px-[38px] bg-white-900 rounded-2xl shadow-5xl">
                                     <h2 className=" mb-3 text-[42px] font-bold leading-[150%]">Standard</h2>
                                     <span className="text-lg font-medium leading-[30px] opacity-60">Global Money Transfer Plus Pack</span>
@@ -46,7 +46,7 @@ export default function Pricing() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="flex-1 px-[20px]">
+                            <div className="lg:flex-1 flex-[50%] px-[20px] mb-[20px]">
                                 <div className="py-[63px] px-[38px] bg-white-900 rounded-2xl shadow-5xl">
                                     <h2 className=" mb-3 text-[42px] font-bold leading-[150%]">Premium</h2>
                                     <span className="text-lg font-medium leading-[30px] opacity-60">Receive Money Premium Pack</span>

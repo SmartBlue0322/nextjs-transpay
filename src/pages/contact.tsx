@@ -13,9 +13,9 @@ export default function Contact() {
                 </div>
 
                 <div className="container mx-auto my-[10rem]">
-                    <div className="flex -mx-[10px] items-end">
-                        <div className="flex-1 px-[10px]">
-                            <div className="contact-info rounded-2xl py-[22px] px-[33px] bg-seagreen-900 mr-[3rem]">
+                    <div className="flex flex-wrap -mx-[10px] items-end">
+                        <div className="lg:flex-1 px-[10px]">
+                            <div className="contact-info rounded-2xl py-[22px] px-[33px] bg-seagreen-900 lg:mr-[3rem]">
                                 <h2 className="mb-[8px] text-[28px] font-semibold">Contact Information</h2>
                                 <p className="mb-[40px]">Say something to start a live chat!</p>
                                 <ul>
@@ -43,7 +43,7 @@ export default function Contact() {
                                 </ul>
                             </div>
                         </div>
-                        <div className="flex-1">
+                        <div className="lg:flex-1">
                             <form action="#">
                                 <div className="row flex -mx-[10px] mb-[25px]">
                                     <div className="form-group flex-[50%] px-[10px]">

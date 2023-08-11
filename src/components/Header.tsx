@@ -12,7 +12,7 @@ export default function Header() {
     <header className="bg-white-900 fixed top-0 left-0 right-0 z-50">
       <nav className="mx-auto flex container items-center justify-between py-9 px-5" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <span className="">
               <span className='text-3xl font-bold text-purple-900'>Trans</span>
@@ -31,10 +31,10 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
+          <a href="/" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
             Home
           </a>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
+          <a href="/pricing" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
             Pricing
           </a>
           <a href="#" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
@@ -43,12 +43,12 @@ export default function Header() {
           <a href="#" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
             Blog
           </a>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
+          <a href="/features" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition">
             Our features
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition flex items-center mr-7">
+          <a href="/signin" className="text-lg font-semibold leading-6 text-gray-900 hover:text-pink-900 transition flex items-center mr-7">
             Sign In
           </a>          
           <button type="button" className="hidden xl:block text-white-900 bg-gradient-to-t from-purple-600 to-pink-600 hover:bg-gradient-to-b focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-[3rem] text-md md:text-lg px-6 py-3.5 text-center transform">Transfer Now</button>
