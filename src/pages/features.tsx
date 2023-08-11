@@ -11,7 +11,7 @@ export default function Features() {
     return (
         <Layout pageTitle="Features" pageDescription="Features page">
             <div className="bg-white-900 mt-[108px] xl:mt-32">
-                <div className="page-header text-center bg-[url('/bg1.jpg')] bg-center py-[125px]">
+                <div className="page-header text-center bg-[url('/bg1.jpg')] bg-center bg-no-repeat bg-cover py-[125px]">
                     <h2 className="text-white-900 font-semibold text-[42px] leading-[63px] mb-[16px]">Our Feature</h2>
                     <p className="text-white-900 font-medium text-[16px] leading-[30px]">Simplifying Money Transfer and Receive</p>
                 </div>
@@ -69,7 +69,7 @@ export default function Features() {
                     </div>
                 </div>
                 <div className="transpay bg-purple-900 pt-[61px] pb-[92px] lg:px-[149px] px-[20px]">
-                    <div className="container">
+                    <div className="container mx-auto">
 
                         <h2 className="mb-[16px] text-3xl lg:text-4xl font-bold text-white-900 mt-8 md:mt-0 leading-normal text-center">
                             Transpay core <span className="text-pink-900">feature</span>

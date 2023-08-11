@@ -7,7 +7,17 @@ import Layout from "@components/Layout";
 
 export default function Signout() {
     const register = () => {
-        axios.post("http://154.12.225.124/user/register").then(res => {
+        axios({ 
+            url: "http://154.12.225.124/api/user/register/",
+            method: "post",
+            data: {
+                email: "b@example.com",
+                first_name: "string",
+                last_name: "string",
+                password: "string",
+                password2: "string"
+            }
+        }).then(res => {
             console.log("result is", res);
         })
     }
